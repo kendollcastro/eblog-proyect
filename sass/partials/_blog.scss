@@ -8,12 +8,10 @@
     }
 
     .blog__container{
-        border: 3px solid red;
-        border-radius: 7px;
-        box-shadow: 1px 5px #00000014;
+        border-radius: 15px;
+        box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
         height: 600px;
-        display: flex;
-        flex-direction: colum;
+        width: 345px;
     }
 
 
@@ -40,11 +38,14 @@
         }
         p{
             color:$secondary-text;
-            /*font-family: roboto, sans-serif;*/
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 15px;
             margin-top: 5px;
             padding-left: 12px;
             padding-right: 12px;
+        }
+        a{
+            color: $purple;
         }
     }
     .bio--blog__container{
@@ -57,18 +58,29 @@
         }
         .info--bio{
             float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            
             p{
                 color:$gray-text;
+                font-family: Arial, Helvetica, sans-serif;
                 font-size: 12px;
                 padding-left: 12px;
             }
             a{
                 color:$gray-text;
+                font-family: Arial, Helvetica, sans-serif;
                 font-size: 12px;
                 text-decoration: none;
                 padding-left: 12px;
             }
         }
+    }
+
+    .footer--container{
+        border-top: 1px solid $gray-text;
+        margin: 0 auto;
+        text-align: center;
+        width:345px;
     }
 
     .footer--blog{
@@ -85,16 +97,14 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
+        padding-top: 15px;
         width: 185px;
     }
 
     .secondary--blog__container{
-        border: 3px solid red;
-        border-radius: 7px;
-        box-shadow: 5px 10px $black-text;
+        border-radius: 15px;
+        box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
         height: 2000px;
-        display: flex;
-        flex-direction: colum;
         h3{
             color:$secondary-text;
             font-size: 20px;
