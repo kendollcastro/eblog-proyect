@@ -1,0 +1,41 @@
+.header-wrapper{
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-container {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 345px;
+    
+    .header-logo {
+
+        img{
+            height: 21px;
+            width: 65px;
+        }
+    }
+}
+
+.header-bar {
+
+    button {
+        background-color: #fff;
+        border: none;
+        margin-left: 16px;
+        
+        img {
+            width: 30px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.wrapper--ad--one {
+    background-image: url(../../img/ads-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 192px;
+    margin: 16px auto;
+    position: relative;
+
+    p {
+        position: absolute;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        top: 115px;
+        left: 28px;
+        width: 300px;   
+    }
+}
+
+.wrapper--ad--two {
+    background-image: url(../../img/ads-img-two.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 192px;
+    margin: 16px auto;
+    position: relative;
+
+    p {
+        position: absolute;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        top: 110px;
+        left: 28px;
+        width: 300px;   
+    }
+}
