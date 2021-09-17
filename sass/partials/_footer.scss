@@ -1,0 +1,50 @@
+@media (min-width: 375px) and (max-width: 480px) {
+    .footer{
+        background-color: $purple;
+        height: 230px;
+        width: 375px;
+        img{
+            height: 21px;
+            padding-top: 20px;
+            padding-left: 12px;
+            width: 62px;
+        }
+        p{
+            color: $gray-text;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto;
+
+            text-align: center;
+
+        }
+    }
+
+    .footer--menu__list{
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 12px;
+        width: 100px;
+        li{
+            list-style: none;
+        }
+        a{
+            color: $white-background;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+
+    .footer--icons{
+        img{
+            height: 30px;
+            width: 30px;
+        }
+        a{
+            
+        }
+        float: left;
+        padding-left: 12px;
+        width: 134px;
+    }
+}
