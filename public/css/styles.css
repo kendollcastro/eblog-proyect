@@ -314,7 +314,13 @@ template {
     border: 3px solid red;
     border-radius: 7px;
     box-shadow: 5px 10px #000000;
+<<<<<<< HEAD
     height: 550px; }
+=======
+    height: 550px;
+    display: flex;
+    flex-direction: column; }
+>>>>>>> 475485c589b77c6c59745cf59c2df7e6c3d0b180
   .img--blog__container img {
     align-content: center;
     height: 173px;
@@ -356,7 +362,16 @@ template {
       text-decoration: none;
       padding-left: 12px; }
   .footer--blog {
+<<<<<<< HEAD
     display: flex; }
+=======
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 185px;
+    margin: 0 auto; }
+>>>>>>> 475485c589b77c6c59745cf59c2df7e6c3d0b180
     .footer--blog a img {
       height: 30px;
       width: 30px; }
