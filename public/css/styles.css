@@ -311,10 +311,10 @@ template {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 12px; }
   .blog__container {
-    border: 1px solid rgba(119, 119, 119, 0.096);
     border-radius: 15px;
     box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
-    height: 600px; }
+    height: 600px;
+    width: 345px; }
   .img--blog__container img {
     align-content: center;
     height: 173px;
@@ -380,8 +380,8 @@ template {
       height: 30px;
       width: 30px; }
   .secondary--blog__container {
-    border-radius: 7px;
-    box-shadow: 5px 10px #000000;
+    border-radius: 15px;
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
     height: 2000px; }
     .secondary--blog__container h3 {
       color: #2A2A2A;
