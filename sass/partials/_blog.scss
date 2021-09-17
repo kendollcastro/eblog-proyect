@@ -12,6 +12,8 @@
         border-radius: 7px;
         box-shadow: 5px 10px $black-text;
         height: 550px;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -79,6 +81,11 @@
             width: 30px;
         }
         display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 185px;
+        margin: 0 auto;
     }
 
     .secondary--blog__container{
