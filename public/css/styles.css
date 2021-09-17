@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+body {
+  background-color: #F1F2F3; }
+
 .header-wrapper {
   background-color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -69,6 +72,20 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 .related--content {
-  margin-top: 16px; }
+  margin: 16px 0;
+  padding-bottom: 8px;
+  width: 265px;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+  border-radius: 15px; }
   .related--content img {
     width: 265px; }
+  .related--content h3 {
+    font-size: 20px;
+    margin: 16px 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .related--content p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 229px;
+    margin: 0 18px 8px 18px; }
