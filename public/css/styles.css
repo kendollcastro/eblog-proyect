@@ -1,0 +1,37 @@
+.footer {
+  background-color: #7537DB;
+  height: 250px; }
+
+.div-logo_footer {
+  padding: 5%; }
+
+#logo-footer {
+  width: 20%; }
+
+.ul-menu {
+  list-style: none;
+  padding: 0 0 0 2%; }
+  .ul-menu li {
+    margin: 3%;
+    font-size: 25px; }
+  .ul-menu a {
+    text-decoration: none;
+    color: white; }
+
+.ul-icon {
+  float: left;
+  margin-top: -17%;
+  margin-left: 55%;
+  width: 40%; }
+  .ul-icon li {
+    display: inline;
+    padding: 3%; }
+  .ul-icon img {
+    width: 18%; }
+
+.div-copyright {
+  margin-top: 10%; }
+  .div-copyright a {
+    color: white;
+    margin: 20%;
+    padding: 8%; }
