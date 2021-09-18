@@ -1,3 +1,102 @@
+/*colores*/
+@media (min-width: 375px) and (max-width: 480px) {
+  .blog__wrapper {
+    width: 345px;
+    margin: 32px auto; }
+    .blog__wrapper a {
+      text-decoration: none; }
+    .blog__wrapper h2 {
+      color: #7537DB;
+      font-size: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 16px; }
+  .blog__container {
+    border-radius: 15px;
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    display: flex;
+    flex-direction: column;
+    width: 345px; }
+    .blog__container h2 {
+      color: #7537DB;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 12px; }
+  .img--blog__container img {
+    height: 173px;
+    width: 345px; }
+  .paragraph--blog__container h4 {
+    color: #7537DB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 16px;
+    padding-left: 12px; }
+  .paragraph--blog__container h2 {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    margin-top: 16px;
+    padding-right: 12px; }
+  .paragraph--blog__container p {
+    color: #2A2A2A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px; }
+  .paragraph--blog__container a {
+    color: #7537DB; }
+  .bio--blog__container {
+    display: flex;
+    align-items: center; }
+    .bio--blog__container .icon--bio img {
+      padding-left: 12px;
+      width: 35px; }
+    .bio--blog__container .info--bio {
+      margin-top: 16px;
+      font-family: Arial, Helvetica, sans-serif; }
+      .bio--blog__container .info--bio p {
+        color: #9D9D9D;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        padding-left: 12px; }
+      .bio--blog__container .info--bio a {
+        color: #9D9D9D;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        padding-left: 12px; }
+  .footer--container {
+    border-top: 1px solid rgba(42, 42, 42, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    width: 345px;
+    margin-top: 16px; }
+  .footer--blog {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px auto;
+    padding-top: 15px;
+    width: 185px; }
+    .footer--blog a img {
+      height: 30px;
+      width: 30px; }
+    .footer--blog a img {
+      height: 30px;
+      width: 30px; }
+  .secondary--blog__container {
+    border-radius: 15px;
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    height: 2000px; }
+    .secondary--blog__container h3 {
+      color: #2A2A2A;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 12px;
+      padding-right: 12px; } }
+
 .footer {
   background-color: #7537DB;
   height: 250px; }
@@ -16,7 +115,7 @@
     font-size: 25px; }
   .ul-menu a {
     text-decoration: none;
-    color: white; }
+    color: #FFFFFF; }
 
 .ul-icon {
   float: left;
@@ -32,9 +131,48 @@
 .div-copyright {
   margin-top: 10%; }
   .div-copyright a {
-    color: white;
+    color: #FFFFFF;
     margin: 20%;
-    padding: 8%; 
+    padding: 8%; }
+
+.footer {
+  background-color: #7537DB;
+  height: 250px; }
+
+.div-logo_footer {
+  padding: 5%; }
+
+#logo-footer {
+  width: 20%; }
+
+.ul-menu {
+  list-style: none;
+  padding: 0 0 0 2%; }
+  .ul-menu li {
+    margin: 3%;
+    font-size: 25px; }
+  .ul-menu a {
+    text-decoration: none;
+    color: #FFFFFF; }
+
+.ul-icon {
+  float: left;
+  margin-top: -17%;
+  margin-left: 55%;
+  width: 40%; }
+  .ul-icon li {
+    display: inline;
+    padding: 3%; }
+  .ul-icon img {
+    width: 18%; }
+
+.div-copyright {
+  margin-top: 10%; }
+  .div-copyright a {
+    color: #FFFFFF;
+    margin: 20%;
+    padding: 8%; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -119,7 +257,7 @@ body {
   background-color: white;
   border-radius: 0.9375rem;
   box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 1rem 1rem 0.5rem;
   padding-bottom: 0.5rem;
   width: 270px; }
   .related--content img {
