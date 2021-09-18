@@ -1,0 +1,43 @@
+.footer{
+    background-color: $purple;
+    height: 250px;
+}
+.div-logo_footer{
+    padding: 5%;
+}
+#logo-footer{
+    width:20%;
+}
+.ul-menu{
+    list-style: none;
+    padding: 0 0 0 2%;
+    li{
+        margin: 3%; 
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;  
+        color: $white-background;
+    }
+}
+.ul-icon{
+    float: left;
+    margin-top: -17%; 
+    margin-left: 55%; 
+    width: 40%;
+    li{
+        display: inline; 
+        padding: 3%;
+    }
+    img{
+        width:18%;
+    }
+}
+.div-copyright{
+    margin-top: 10%;
+    a{
+        color: $white-background; 
+        margin: 20%; 
+        padding: 8%;
+    }
+}
