@@ -1,120 +1,122 @@
 /*colores*/
 @media (min-width: 375px) and (max-width: 480px) {
   .blog__wrapper {
-    width: 345px;
-    margin: 32px auto; }
+    width: 21.5625rem;
+    margin: 2rem auto; }
     .blog__wrapper h1 {
       color: #7537DB;
-      font-size: 30px;
+      font-size: 1.875rem;
       font-family: Arial, Helvetica, sans-serif;
-      padding-left: 12px; }
+      padding-left: 0.75rem; }
     .blog__wrapper a {
       text-decoration: none; }
     .blog__wrapper h2 {
       color: #7537DB;
-      font-size: 24px;
+      font-size: 1.5rem;
       font-family: Arial, Helvetica, sans-serif;
-      margin-bottom: 16px; }
+      margin-bottom: 1rem; }
   .blog__container {
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
     display: flex;
     flex-direction: column;
-    width: 345px; }
+    width: 21.5625rem; }
     .blog__container h2 {
       color: #7537DB;
-      font-size: 30px;
+      font-size: 1.875rem;
       font-family: Arial, Helvetica, sans-serif;
-      padding-left: 12px; }
+      padding-left: 0.75rem; }
   .img--blog__container img {
-    height: 173px;
-    width: 345px; }
+    height: 10.8125rem;
+    width: 21.5625rem; }
   .paragraph--blog__container h4 {
     color: #7537DB;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    margin-top: 16px;
-    padding-left: 12px; }
+    margin-bottom: 0.625rem;
+    margin-top: 1rem;
+    padding-left: 0.75rem; }
   .paragraph--blog__container h2 {
     color: #2A2A2A;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 12px;
-    margin-top: 16px;
-    padding-right: 12px; }
+    padding-left: 0.75rem;
+    margin-top: 1rem;
+    padding-right: 0.75rem; }
   .paragraph--blog__container p {
     color: #2A2A2A;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-top: 16px;
-    padding-left: 12px;
-    padding-right: 12px; }
+    font-size: 0.9375rem;
+    margin-top: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; }
   .paragraph--blog__container a {
     color: #7537DB; }
   .bio--blog__container {
     display: flex;
     align-items: center; }
     .bio--blog__container .icon--bio img {
-      padding-left: 12px;
-      width: 35px; }
+      padding-left: 0.75rem;
+      width: 2.1875rem; }
     .bio--blog__container .info--bio {
-      margin-top: 16px;
+      margin-top: 1rem;
       font-family: Arial, Helvetica, sans-serif; }
       .bio--blog__container .info--bio p {
         color: #9D9D9D;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        padding-left: 12px; }
+        font-size: 0.75rem;
+        padding-left: 0.75rem; }
       .bio--blog__container .info--bio a {
         color: #9D9D9D;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 0.75rem;
         text-decoration: none;
-        padding-left: 12px; }
+        padding-left: 0.75rem; }
   .footer--container {
-    border-top: 1px solid rgba(42, 42, 42, 0.2);
-    margin: 0 auto;
+    border-bottom: 0.0625rem solid rgba(42, 42, 42, 0.2);
+    margin: 1rem auto;
     text-align: center;
-    width: 345px;
-    margin-top: 16px; }
+    width: 21.5625rem;
+    margin-top: 1rem; }
   .footer--blog {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 8px auto;
-    padding-top: 15px;
-    width: 185px; }
+    margin: 0.5rem auto;
+    padding-top: 0.9375rem;
+    width: 11.5625rem; }
     .footer--blog a img {
-      height: 30px;
-      width: 30px; }
+      height: 1.875rem;
+      width: 1.875rem; }
     .footer--blog a img {
-      height: 30px;
-      width: 30px; }
+      height: 1.875rem;
+      width: 1.875rem; }
   .secondary--blog__container {
-    border-radius: 15px;
-    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
-    height: 700px; }
+    border-radius: 0.9375rem;
+    height: 43.75rem; }
     .secondary--blog__container h1 {
       color: #7537DB;
-      font-size: 25px;
+      font-size: 1.5625rem;
       font-family: Arial, Helvetica, sans-serif;
-      padding-left: 12px;
-      padding-right: 12px;
-      padding-top: 15px; }
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      padding-top: 0.9375rem; }
     .secondary--blog__container h3 {
       color: #2A2A2A;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: Arial, Helvetica, sans-serif;
-      padding-left: 12px;
-      padding-right: 12px; }
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      margin-top: 1rem; }
   .img--blog__container img {
-    padding-left: 12px;
-    padding-top: 12px; } }
+    padding-left: 0.75rem;
+    padding-top: 0.75rem;
+    margin-top: 1rem; } }
 
 .footer {
   background-color: #7537DB;
-  height: 250px; }
+  height: 250px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 .div-logo_footer {
   padding: 5%; }
@@ -146,13 +148,14 @@
 .div-copyright {
   margin-top: 10%; }
   .div-copyright a {
-    color: #FFFFFF;
-    margin: 20%;
+    color: #9D9D9D;
+    margin: 15%;
     padding: 8%; }
 
 .footer {
   background-color: #7537DB;
-  height: 250px; }
+  height: 250px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 .div-logo_footer {
   padding: 5%; }
@@ -184,8 +187,8 @@
 .div-copyright {
   margin-top: 10%; }
   .div-copyright a {
-    color: #FFFFFF;
-    margin: 20%;
+    color: #9D9D9D;
+    margin: 15%;
     padding: 8%; }
 
 * {
@@ -297,12 +300,13 @@ body {
     margin-top: 0.5rem; }
 
 .comments--wrapper {
-  margin: 0 auto;
+  margin: 1rem auto;
   width: 21.5625rem; }
   .comments--wrapper h3 {
     color: #7537DB;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    padding-top: 1.5rem; }
   .comments--wrapper form {
     display: flex;
     flex-direction: column;
@@ -315,7 +319,7 @@ body {
       font-size: 1.25rem;
       margin-left: 0.5rem; }
     .comments--wrapper form textarea {
-      border-radius: 15px;
+      border-radius: 0.9375rem;
       border: 0.125rem solid #9D9D9D;
       margin: 0.5rem 0 1rem 0; }
 
