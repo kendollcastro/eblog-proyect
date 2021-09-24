@@ -225,6 +225,7 @@ body {
 /* Header Menu */
 .header--menu {
   background-color: #FFFFFF;
+  display: none;
   height: 100vh;
   margin: 1rem auto;
   overflow-y: hidden;
