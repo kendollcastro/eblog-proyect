@@ -103,7 +103,7 @@
     }
 
     .footer--container{
-        border-bottom: 0.0625rem solid rgba(42, 42, 42, 0.2);
+        border-top: 0.0625rem solid rgba(42, 42, 42, 0.2);
         margin: 1rem auto;
         text-align: center;
         width: 21.5625rem;
@@ -151,11 +151,5 @@
             padding-right: 0.75rem;
             margin-top: 1rem;
         }
-    }
-
-    .img--blog__container img{
-        padding-left: 0.75rem;
-        padding-top: 0.75rem;
-        margin-top: 1rem;
     }
 }
